@@ -44,14 +44,14 @@ def other_choices():
             signup()
             break
         elif choose.isdigit() and int(choose) == 1:
-            login_shop()
+            login()
             break
         else:
             print("输入不合法，请重新选择,注册别名请选择0，登陆请选择1")
 
 
 # 登陆
-def login_shop():
+def login():
     global user
     try_num = 3
     user_input_name = input('请输入已注册的用户名==>').strip()
@@ -193,7 +193,7 @@ def main():
                 signup()
             # 登陆
             elif choice == 1:
-                login_shop()
+                login()
             # 购物
             elif choice == 2:
                 if not user:
