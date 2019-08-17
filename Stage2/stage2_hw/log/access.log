@@ -1,0 +1,8 @@
+2019-08-17 18:00:50 PM - root -INFO - common-signup : hello用户注册
+2019-08-17 18:01:06 PM - root -INFO - common-login : hello用户登陆
+2019-08-17 18:01:16 PM - root -INFO - common-withdraw_cash : hello用户取现：1000
+2019-08-17 18:01:20 PM - root -INFO - common-consume : hello用户购买：iphone，花费8000
+2019-08-17 18:01:22 PM - root -INFO - common-consume : hello用户购买：juice，花费20
+2019-08-17 18:01:37 PM - root -INFO - common-repay : hello用户还款500元
+2019-08-17 18:01:42 PM - root -INFO - common-lift_amount : hello用户提额10000元
+2019-08-17 18:01:45 PM - root -INFO - common-exit_2 : hello用户退出该系统
